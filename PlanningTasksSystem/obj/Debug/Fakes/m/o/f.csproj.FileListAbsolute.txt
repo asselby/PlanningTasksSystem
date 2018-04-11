@@ -1,0 +1,15 @@
+C:\Users\Besttdk\Source\Repos\PlanningTasksSystem\PlanningTasksSystem\obj\Debug\Fakes\m\b\Model.Fakes.xml
+C:\Users\Besttdk\Source\Repos\PlanningTasksSystem\PlanningTasksSystem\obj\Debug\Fakes\m\b\Model.Fakes.dll
+C:\Users\Besttdk\Source\Repos\PlanningTasksSystem\PlanningTasksSystem\obj\Debug\Fakes\m\b\Model.Fakes.pdb
+C:\Users\Besttdk\Source\Repos\PlanningTasksSystem\PlanningTasksSystem\obj\Debug\Fakes\m\b\EntityFramework.dll
+C:\Users\Besttdk\Source\Repos\PlanningTasksSystem\PlanningTasksSystem\obj\Debug\Fakes\m\b\EntityFramework.SqlServer.dll
+C:\Users\Besttdk\Source\Repos\PlanningTasksSystem\PlanningTasksSystem\obj\Debug\Fakes\m\b\Microsoft.QualityTools.Testing.Fakes.dll
+C:\Users\Besttdk\Source\Repos\PlanningTasksSystem\PlanningTasksSystem\obj\Debug\Fakes\m\b\Model.dll
+C:\Users\Besttdk\Source\Repos\PlanningTasksSystem\PlanningTasksSystem\obj\Debug\Fakes\m\b\Model.pdb
+C:\Users\Besttdk\Source\Repos\PlanningTasksSystem\PlanningTasksSystem\obj\Debug\Fakes\m\b\Model.dll.config
+C:\Users\Besttdk\Source\Repos\PlanningTasksSystem\PlanningTasksSystem\obj\Debug\Fakes\m\b\EntityFramework.xml
+C:\Users\Besttdk\Source\Repos\PlanningTasksSystem\PlanningTasksSystem\obj\Debug\Fakes\m\b\EntityFramework.SqlServer.xml
+C:\Users\Besttdk\Source\Repos\PlanningTasksSystem\PlanningTasksSystem\obj\Debug\Fakes\m\b\ru\Microsoft.QualityTools.Testing.Fakes.resources.dll
+C:\Users\Besttdk\Source\Repos\PlanningTasksSystem\PlanningTasksSystem\obj\Debug\Fakes\m\o\f.csprojResolveAssemblyReference.cache
+C:\Users\Besttdk\Source\Repos\PlanningTasksSystem\PlanningTasksSystem\obj\Debug\Fakes\m\o\Model.Fakes.dll
+C:\Users\Besttdk\Source\Repos\PlanningTasksSystem\PlanningTasksSystem\obj\Debug\Fakes\m\o\Model.Fakes.pdb

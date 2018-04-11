@@ -1,0 +1,17 @@
+C:\Users\Besttdk\Source\Repos\PlanningTasksSystem\PlanningTasksSystem\bin\Debug\PlanningTasksSystem.exe.config
+C:\Users\Besttdk\Source\Repos\PlanningTasksSystem\PlanningTasksSystem\bin\Debug\PlanningTasksSystem.exe
+C:\Users\Besttdk\Source\Repos\PlanningTasksSystem\PlanningTasksSystem\bin\Debug\PlanningTasksSystem.pdb
+C:\Users\Besttdk\Source\Repos\PlanningTasksSystem\PlanningTasksSystem\bin\Debug\EntityFramework.dll
+C:\Users\Besttdk\Source\Repos\PlanningTasksSystem\PlanningTasksSystem\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Besttdk\Source\Repos\PlanningTasksSystem\PlanningTasksSystem\bin\Debug\Microsoft.QualityTools.Testing.Fakes.dll
+C:\Users\Besttdk\Source\Repos\PlanningTasksSystem\PlanningTasksSystem\bin\Debug\EntityFramework.xml
+C:\Users\Besttdk\Source\Repos\PlanningTasksSystem\PlanningTasksSystem\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Besttdk\Source\Repos\PlanningTasksSystem\PlanningTasksSystem\bin\Debug\ru\Microsoft.QualityTools.Testing.Fakes.resources.dll
+C:\Users\Besttdk\Source\Repos\PlanningTasksSystem\PlanningTasksSystem\obj\Debug\PlanningTasksSystem.AutenticationForm.resources
+C:\Users\Besttdk\Source\Repos\PlanningTasksSystem\PlanningTasksSystem\obj\Debug\PlanningTasksSystem.Properties.Resources.resources
+C:\Users\Besttdk\Source\Repos\PlanningTasksSystem\PlanningTasksSystem\obj\Debug\View.csproj.GenerateResource.Cache
+C:\Users\Besttdk\Source\Repos\PlanningTasksSystem\PlanningTasksSystem\obj\Debug\PlanningTasksSystem.exe
+C:\Users\Besttdk\Source\Repos\PlanningTasksSystem\PlanningTasksSystem\obj\Debug\PlanningTasksSystem.pdb
+C:\Users\Besttdk\Source\Repos\PlanningTasksSystem\PlanningTasksSystem\obj\Debug\View.csprojFakesResolveAssemblyReference.cache
+C:\Users\Besttdk\Source\Repos\PlanningTasksSystem\PlanningTasksSystem\obj\Debug\PlanningTasksSystem.DealAddForm.resources
+C:\Users\Besttdk\Source\Repos\PlanningTasksSystem\PlanningTasksSystem\obj\Debug\PlanningTasksSystem.MenuForm.resources

@@ -1,0 +1,596 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Model.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:Model.DbConnection.Fakes.ShimDataBaseContext">
+            <summary>Тип оболочки совместимости для Model.DbConnection.DataBaseContext</summary>
+        </member>
+        <member name="M:Model.DbConnection.Fakes.ShimDataBaseContext.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:Model.DbConnection.Fakes.ShimDataBaseContext.#ctor(Model.DbConnection.DataBaseContext)">
+            <summary>Инициализация новой оболочки совместимости для заданного экземпляра</summary>
+        </member>
+        <member name="T:Model.DbConnection.Fakes.ShimDataBaseContext.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="P:Model.DbConnection.Fakes.ShimDataBaseContext.AllInstances.DealsGet">
+            <summary>Задает оболочка совместимости DataBaseContext.get_Deals()</summary>
+        </member>
+        <member name="P:Model.DbConnection.Fakes.ShimDataBaseContext.AllInstances.DealsSetDbSetOfDeal">
+            <summary>Задает оболочка совместимости DataBaseContext.set_Deals(DbSet`1&lt;Deal&gt; value)</summary>
+        </member>
+        <member name="P:Model.DbConnection.Fakes.ShimDataBaseContext.AllInstances.PeopleGet">
+            <summary>Задает оболочка совместимости DataBaseContext.get_People()</summary>
+        </member>
+        <member name="P:Model.DbConnection.Fakes.ShimDataBaseContext.AllInstances.PeopleSetDbSetOfUser">
+            <summary>Задает оболочка совместимости DataBaseContext.set_People(DbSet`1&lt;User&gt; value)</summary>
+        </member>
+        <member name="P:Model.DbConnection.Fakes.ShimDataBaseContext.AllInstances.TagsGet">
+            <summary>Задает оболочка совместимости DataBaseContext.get_Tags()</summary>
+        </member>
+        <member name="P:Model.DbConnection.Fakes.ShimDataBaseContext.AllInstances.TagsSetDbSetOfTag">
+            <summary>Задает оболочка совместимости DataBaseContext.set_Tags(DbSet`1&lt;Tag&gt; value)</summary>
+        </member>
+        <member name="M:Model.DbConnection.Fakes.ShimDataBaseContext.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:Model.DbConnection.Fakes.ShimDataBaseContext.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Model.DbConnection.Fakes.ShimDataBaseContext.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:Model.DbConnection.Fakes.ShimDataBaseContext.Bind(System.Data.Entity.Infrastructure.IObjectContextAdapter)">
+            <summary>Привязка членов интерфейса к оболочке совместимости.</summary>
+        </member>
+        <member name="M:Model.DbConnection.Fakes.ShimDataBaseContext.Bind(System.IDisposable)">
+            <summary>Привязка членов интерфейса к оболочке совместимости.</summary>
+        </member>
+        <member name="P:Model.DbConnection.Fakes.ShimDataBaseContext.Constructor">
+            <summary>Задает оболочка совместимости DataBaseContext.DataBaseContext()</summary>
+        </member>
+        <member name="P:Model.DbConnection.Fakes.ShimDataBaseContext.DealsGet">
+            <summary>Задает оболочка совместимости DataBaseContext.get_Deals()</summary>
+        </member>
+        <member name="P:Model.DbConnection.Fakes.ShimDataBaseContext.DealsSetDbSetOfDeal">
+            <summary>Задает оболочка совместимости DataBaseContext.set_Deals(DbSet`1&lt;Deal&gt; value)</summary>
+        </member>
+        <member name="P:Model.DbConnection.Fakes.ShimDataBaseContext.PeopleGet">
+            <summary>Задает оболочка совместимости DataBaseContext.get_People()</summary>
+        </member>
+        <member name="P:Model.DbConnection.Fakes.ShimDataBaseContext.PeopleSetDbSetOfUser">
+            <summary>Задает оболочка совместимости DataBaseContext.set_People(DbSet`1&lt;User&gt; value)</summary>
+        </member>
+        <member name="P:Model.DbConnection.Fakes.ShimDataBaseContext.StaticConstructor">
+            <summary>Задает оболочка совместимости DataBaseContext.DataBaseContext()</summary>
+        </member>
+        <member name="P:Model.DbConnection.Fakes.ShimDataBaseContext.TagsGet">
+            <summary>Задает оболочка совместимости DataBaseContext.get_Tags()</summary>
+        </member>
+        <member name="P:Model.DbConnection.Fakes.ShimDataBaseContext.TagsSetDbSetOfTag">
+            <summary>Задает оболочка совместимости DataBaseContext.set_Tags(DbSet`1&lt;Tag&gt; value)</summary>
+        </member>
+        <member name="T:Model.DbConnection.Fakes.ShimMyDbInitializer">
+            <summary>Тип оболочки совместимости для Model.DbConnection.MyDbInitializer</summary>
+        </member>
+        <member name="M:Model.DbConnection.Fakes.ShimMyDbInitializer.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:Model.DbConnection.Fakes.ShimMyDbInitializer.#ctor(Model.DbConnection.MyDbInitializer)">
+            <summary>Инициализация новой оболочки совместимости для заданного экземпляра</summary>
+        </member>
+        <member name="T:Model.DbConnection.Fakes.ShimMyDbInitializer.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="P:Model.DbConnection.Fakes.ShimMyDbInitializer.AllInstances.SeedDataBaseContext">
+            <summary>Задает оболочка совместимости MyDbInitializer.Seed(DataBaseContext context)</summary>
+        </member>
+        <member name="M:Model.DbConnection.Fakes.ShimMyDbInitializer.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:Model.DbConnection.Fakes.ShimMyDbInitializer.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Model.DbConnection.Fakes.ShimMyDbInitializer.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:Model.DbConnection.Fakes.ShimMyDbInitializer.Bind(System.Data.Entity.IDatabaseInitializer{Model.DbConnection.DataBaseContext})">
+            <summary>Привязка членов интерфейса к оболочке совместимости.</summary>
+        </member>
+        <member name="P:Model.DbConnection.Fakes.ShimMyDbInitializer.Constructor">
+            <summary>Задает оболочка совместимости MyDbInitializer.MyDbInitializer()</summary>
+        </member>
+        <member name="P:Model.DbConnection.Fakes.ShimMyDbInitializer.SeedDataBaseContext">
+            <summary>Задает оболочка совместимости MyDbInitializer.Seed(DataBaseContext context)</summary>
+        </member>
+        <member name="T:Model.DbConnection.Fakes.StubDataBaseContext">
+            <summary>Тип заглушки Model.DbConnection.DataBaseContext</summary>
+        </member>
+        <member name="M:Model.DbConnection.Fakes.StubDataBaseContext.#ctor">
+            <summary>Инициализирует новый экземпляр</summary>
+        </member>
+        <member name="P:Model.DbConnection.Fakes.StubDataBaseContext.CallBase">
+            <summary>Получает или задает значение, указывающее, следует ли вызывать базовый метод вместо резервного поведения</summary>
+        </member>
+        <member name="M:Model.DbConnection.Fakes.StubDataBaseContext.Dispose(System.Boolean)">
+            <summary>Задает заглушка DbContext.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="F:Model.DbConnection.Fakes.StubDataBaseContext.DisposeBoolean">
+            <summary>Задает stub DbContext.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="M:Model.DbConnection.Fakes.StubDataBaseContext.Equals(System.Object)">
+            <summary>Задает заглушка DbContext.Equals(Object obj)</summary>
+        </member>
+        <member name="F:Model.DbConnection.Fakes.StubDataBaseContext.EqualsObject">
+            <summary>Задает stub DbContext.Equals(Object obj)</summary>
+        </member>
+        <member name="M:Model.DbConnection.Fakes.StubDataBaseContext.GetHashCode">
+            <summary>Задает заглушка DbContext.GetHashCode()</summary>
+        </member>
+        <member name="F:Model.DbConnection.Fakes.StubDataBaseContext.GetHashCode01">
+            <summary>Задает stub DbContext.GetHashCode()</summary>
+        </member>
+        <member name="M:Model.DbConnection.Fakes.StubDataBaseContext.InitializeStub">
+            <summary>Инициализирует новый экземпляр type StubDataBaseContext</summary>
+        </member>
+        <member name="P:Model.DbConnection.Fakes.StubDataBaseContext.InstanceBehavior">
+            <summary>Получает или задает поведение экземпляра.</summary>
+        </member>
+        <member name="P:Model.DbConnection.Fakes.StubDataBaseContext.InstanceObserver">
+            <summary>Получает или задает наблюдатель экземпляра.</summary>
+        </member>
+        <member name="M:Model.DbConnection.Fakes.StubDataBaseContext.OnModelCreating(System.Data.Entity.DbModelBuilder)">
+            <summary>Задает заглушка DbContext.OnModelCreating(DbModelBuilder modelBuilder)</summary>
+        </member>
+        <member name="F:Model.DbConnection.Fakes.StubDataBaseContext.OnModelCreatingDbModelBuilder">
+            <summary>Задает stub DbContext.OnModelCreating(DbModelBuilder modelBuilder)</summary>
+        </member>
+        <member name="M:Model.DbConnection.Fakes.StubDataBaseContext.SaveChanges">
+            <summary>Задает заглушка DbContext.SaveChanges()</summary>
+        </member>
+        <member name="F:Model.DbConnection.Fakes.StubDataBaseContext.SaveChanges01">
+            <summary>Задает stub DbContext.SaveChanges()</summary>
+        </member>
+        <member name="M:Model.DbConnection.Fakes.StubDataBaseContext.SaveChangesAsync">
+            <summary>Задает заглушка DbContext.SaveChangesAsync()</summary>
+        </member>
+        <member name="M:Model.DbConnection.Fakes.StubDataBaseContext.SaveChangesAsync(System.Threading.CancellationToken)">
+            <summary>Задает заглушка DbContext.SaveChangesAsync(CancellationToken cancellationToken)</summary>
+        </member>
+        <member name="F:Model.DbConnection.Fakes.StubDataBaseContext.SaveChangesAsync01">
+            <summary>Задает stub DbContext.SaveChangesAsync()</summary>
+        </member>
+        <member name="F:Model.DbConnection.Fakes.StubDataBaseContext.SaveChangesAsyncCancellationToken">
+            <summary>Задает stub DbContext.SaveChangesAsync(CancellationToken cancellationToken)</summary>
+        </member>
+        <member name="M:Model.DbConnection.Fakes.StubDataBaseContext.Set(System.Type)">
+            <summary>Задает заглушка DbContext.Set(Type entityType)</summary>
+        </member>
+        <member name="M:Model.DbConnection.Fakes.StubDataBaseContext.Set``1">
+            <summary>Задает заглушка DbContext.Set()</summary>
+        </member>
+        <member name="M:Model.DbConnection.Fakes.StubDataBaseContext.SetOf1``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Data.Entity.DbSet{``0}})">
+            <summary>Задает заглушки Set()</summary>
+        </member>
+        <member name="F:Model.DbConnection.Fakes.StubDataBaseContext.SetType">
+            <summary>Задает stub DbContext.Set(Type entityType)</summary>
+        </member>
+        <member name="M:Model.DbConnection.Fakes.StubDataBaseContext.ShouldValidateEntity(System.Data.Entity.Infrastructure.DbEntityEntry)">
+            <summary>Задает заглушка DbContext.ShouldValidateEntity(DbEntityEntry entityEntry)</summary>
+        </member>
+        <member name="F:Model.DbConnection.Fakes.StubDataBaseContext.ShouldValidateEntityDbEntityEntry">
+            <summary>Задает stub DbContext.ShouldValidateEntity(DbEntityEntry entityEntry)</summary>
+        </member>
+        <member name="M:Model.DbConnection.Fakes.StubDataBaseContext.ToString">
+            <summary>Задает заглушка DbContext.ToString()</summary>
+        </member>
+        <member name="F:Model.DbConnection.Fakes.StubDataBaseContext.ToString01">
+            <summary>Задает stub DbContext.ToString()</summary>
+        </member>
+        <member name="M:Model.DbConnection.Fakes.StubDataBaseContext.ValidateEntity(System.Data.Entity.Infrastructure.DbEntityEntry,System.Collections.Generic.IDictionary{System.Object,System.Object})">
+            <summary>Задает заглушка DbContext.ValidateEntity(DbEntityEntry entityEntry, IDictionary`2&lt;Object,Object&gt; items)</summary>
+        </member>
+        <member name="F:Model.DbConnection.Fakes.StubDataBaseContext.ValidateEntityDbEntityEntryIDictionaryOfObjectObject">
+            <summary>Задает stub DbContext.ValidateEntity(DbEntityEntry entityEntry, IDictionary`2&lt;Object,Object&gt; items)</summary>
+        </member>
+        <member name="T:Model.DbConnection.Fakes.StubMyDbInitializer">
+            <summary>Тип заглушки Model.DbConnection.MyDbInitializer</summary>
+        </member>
+        <member name="M:Model.DbConnection.Fakes.StubMyDbInitializer.#ctor">
+            <summary>Инициализирует новый экземпляр</summary>
+        </member>
+        <member name="P:Model.DbConnection.Fakes.StubMyDbInitializer.CallBase">
+            <summary>Получает или задает значение, указывающее, следует ли вызывать базовый метод вместо резервного поведения</summary>
+        </member>
+        <member name="M:Model.DbConnection.Fakes.StubMyDbInitializer.InitializeDatabase(Model.DbConnection.DataBaseContext)">
+            <summary>Задает заглушка DropCreateDatabaseAlways`1.InitializeDatabase(!0 context)</summary>
+        </member>
+        <member name="F:Model.DbConnection.Fakes.StubMyDbInitializer.InitializeDatabaseDataBaseContext">
+            <summary>Задает stub DropCreateDatabaseAlways`1.InitializeDatabase(!0 context)</summary>
+        </member>
+        <member name="M:Model.DbConnection.Fakes.StubMyDbInitializer.InitializeStub">
+            <summary>Инициализирует новый экземпляр type StubMyDbInitializer</summary>
+        </member>
+        <member name="P:Model.DbConnection.Fakes.StubMyDbInitializer.InstanceBehavior">
+            <summary>Получает или задает поведение экземпляра.</summary>
+        </member>
+        <member name="P:Model.DbConnection.Fakes.StubMyDbInitializer.InstanceObserver">
+            <summary>Получает или задает наблюдатель экземпляра.</summary>
+        </member>
+        <member name="M:Model.DbConnection.Fakes.StubMyDbInitializer.Seed(Model.DbConnection.DataBaseContext)">
+            <summary>Задает заглушка MyDbInitializer.Seed(DataBaseContext context)</summary>
+        </member>
+        <member name="F:Model.DbConnection.Fakes.StubMyDbInitializer.SeedDataBaseContext">
+            <summary>Задает stub MyDbInitializer.Seed(DataBaseContext context)</summary>
+        </member>
+        <member name="T:Model.Entities.Fakes.ShimDeal">
+            <summary>Тип оболочки совместимости для Model.Entities.Deal</summary>
+        </member>
+        <member name="M:Model.Entities.Fakes.ShimDeal.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:Model.Entities.Fakes.ShimDeal.#ctor(Model.Entities.Deal)">
+            <summary>Инициализация новой оболочки совместимости для заданного экземпляра</summary>
+        </member>
+        <member name="T:Model.Entities.Fakes.ShimDeal.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="P:Model.Entities.Fakes.ShimDeal.AllInstances.CreatedDateGet">
+            <summary>Задает оболочка совместимости Deal.get_CreatedDate()</summary>
+        </member>
+        <member name="P:Model.Entities.Fakes.ShimDeal.AllInstances.CreatedDateSetDateTime">
+            <summary>Задает оболочка совместимости Deal.set_CreatedDate(DateTime value)</summary>
+        </member>
+        <member name="P:Model.Entities.Fakes.ShimDeal.AllInstances.CurrentDateGet">
+            <summary>Задает оболочка совместимости Deal.get_CurrentDate()</summary>
+        </member>
+        <member name="P:Model.Entities.Fakes.ShimDeal.AllInstances.CurrentDateSetDateTime">
+            <summary>Задает оболочка совместимости Deal.set_CurrentDate(DateTime value)</summary>
+        </member>
+        <member name="P:Model.Entities.Fakes.ShimDeal.AllInstances.DescriptionGet">
+            <summary>Задает оболочка совместимости Deal.get_Description()</summary>
+        </member>
+        <member name="P:Model.Entities.Fakes.ShimDeal.AllInstances.DescriptionSetString">
+            <summary>Задает оболочка совместимости Deal.set_Description(String value)</summary>
+        </member>
+        <member name="P:Model.Entities.Fakes.ShimDeal.AllInstances.IdGet">
+            <summary>Задает оболочка совместимости Deal.get_Id()</summary>
+        </member>
+        <member name="P:Model.Entities.Fakes.ShimDeal.AllInstances.IdSetInt32">
+            <summary>Задает оболочка совместимости Deal.set_Id(Int32 value)</summary>
+        </member>
+        <member name="P:Model.Entities.Fakes.ShimDeal.AllInstances.PriorityGet">
+            <summary>Задает оболочка совместимости Deal.get_Priority()</summary>
+        </member>
+        <member name="P:Model.Entities.Fakes.ShimDeal.AllInstances.PrioritySetInt32">
+            <summary>Задает оболочка совместимости Deal.set_Priority(Int32 value)</summary>
+        </member>
+        <member name="P:Model.Entities.Fakes.ShimDeal.AllInstances.TagsGet">
+            <summary>Задает оболочка совместимости Deal.get_Tags()</summary>
+        </member>
+        <member name="P:Model.Entities.Fakes.ShimDeal.AllInstances.TagsSetICollectionOfTag">
+            <summary>Задает оболочка совместимости Deal.set_Tags(ICollection`1&lt;Tag&gt; value)</summary>
+        </member>
+        <member name="M:Model.Entities.Fakes.ShimDeal.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:Model.Entities.Fakes.ShimDeal.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Model.Entities.Fakes.ShimDeal.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Model.Entities.Fakes.ShimDeal.Constructor">
+            <summary>Задает оболочка совместимости Deal.Deal()</summary>
+        </member>
+        <member name="P:Model.Entities.Fakes.ShimDeal.CreatedDateGet">
+            <summary>Задает оболочка совместимости Deal.get_CreatedDate()</summary>
+        </member>
+        <member name="P:Model.Entities.Fakes.ShimDeal.CreatedDateSetDateTime">
+            <summary>Задает оболочка совместимости Deal.set_CreatedDate(DateTime value)</summary>
+        </member>
+        <member name="P:Model.Entities.Fakes.ShimDeal.CurrentDateGet">
+            <summary>Задает оболочка совместимости Deal.get_CurrentDate()</summary>
+        </member>
+        <member name="P:Model.Entities.Fakes.ShimDeal.CurrentDateSetDateTime">
+            <summary>Задает оболочка совместимости Deal.set_CurrentDate(DateTime value)</summary>
+        </member>
+        <member name="P:Model.Entities.Fakes.ShimDeal.DescriptionGet">
+            <summary>Задает оболочка совместимости Deal.get_Description()</summary>
+        </member>
+        <member name="P:Model.Entities.Fakes.ShimDeal.DescriptionSetString">
+            <summary>Задает оболочка совместимости Deal.set_Description(String value)</summary>
+        </member>
+        <member name="P:Model.Entities.Fakes.ShimDeal.IdGet">
+            <summary>Задает оболочка совместимости Deal.get_Id()</summary>
+        </member>
+        <member name="P:Model.Entities.Fakes.ShimDeal.IdSetInt32">
+            <summary>Задает оболочка совместимости Deal.set_Id(Int32 value)</summary>
+        </member>
+        <member name="P:Model.Entities.Fakes.ShimDeal.PriorityGet">
+            <summary>Задает оболочка совместимости Deal.get_Priority()</summary>
+        </member>
+        <member name="P:Model.Entities.Fakes.ShimDeal.PrioritySetInt32">
+            <summary>Задает оболочка совместимости Deal.set_Priority(Int32 value)</summary>
+        </member>
+        <member name="P:Model.Entities.Fakes.ShimDeal.TagsGet">
+            <summary>Задает оболочка совместимости Deal.get_Tags()</summary>
+        </member>
+        <member name="P:Model.Entities.Fakes.ShimDeal.TagsSetICollectionOfTag">
+            <summary>Задает оболочка совместимости Deal.set_Tags(ICollection`1&lt;Tag&gt; value)</summary>
+        </member>
+        <member name="T:Model.Entities.Fakes.ShimTag">
+            <summary>Тип оболочки совместимости для Model.Entities.Tag</summary>
+        </member>
+        <member name="M:Model.Entities.Fakes.ShimTag.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:Model.Entities.Fakes.ShimTag.#ctor(Model.Entities.Tag)">
+            <summary>Инициализация новой оболочки совместимости для заданного экземпляра</summary>
+        </member>
+        <member name="T:Model.Entities.Fakes.ShimTag.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="P:Model.Entities.Fakes.ShimTag.AllInstances.TagDescriptonGet">
+            <summary>Задает оболочка совместимости Tag.get_TagDescripton()</summary>
+        </member>
+        <member name="P:Model.Entities.Fakes.ShimTag.AllInstances.TagDescriptonSetString">
+            <summary>Задает оболочка совместимости Tag.set_TagDescripton(String value)</summary>
+        </member>
+        <member name="P:Model.Entities.Fakes.ShimTag.AllInstances.TagIdGet">
+            <summary>Задает оболочка совместимости Tag.get_TagId()</summary>
+        </member>
+        <member name="P:Model.Entities.Fakes.ShimTag.AllInstances.TagIdSetInt32">
+            <summary>Задает оболочка совместимости Tag.set_TagId(Int32 value)</summary>
+        </member>
+        <member name="M:Model.Entities.Fakes.ShimTag.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:Model.Entities.Fakes.ShimTag.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Model.Entities.Fakes.ShimTag.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Model.Entities.Fakes.ShimTag.Constructor">
+            <summary>Задает оболочка совместимости Tag.Tag()</summary>
+        </member>
+        <member name="P:Model.Entities.Fakes.ShimTag.TagDescriptonGet">
+            <summary>Задает оболочка совместимости Tag.get_TagDescripton()</summary>
+        </member>
+        <member name="P:Model.Entities.Fakes.ShimTag.TagDescriptonSetString">
+            <summary>Задает оболочка совместимости Tag.set_TagDescripton(String value)</summary>
+        </member>
+        <member name="P:Model.Entities.Fakes.ShimTag.TagIdGet">
+            <summary>Задает оболочка совместимости Tag.get_TagId()</summary>
+        </member>
+        <member name="P:Model.Entities.Fakes.ShimTag.TagIdSetInt32">
+            <summary>Задает оболочка совместимости Tag.set_TagId(Int32 value)</summary>
+        </member>
+        <member name="T:Model.Entities.Fakes.ShimUser">
+            <summary>Тип оболочки совместимости для Model.Entities.User</summary>
+        </member>
+        <member name="M:Model.Entities.Fakes.ShimUser.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:Model.Entities.Fakes.ShimUser.#ctor(Model.Entities.User)">
+            <summary>Инициализация новой оболочки совместимости для заданного экземпляра</summary>
+        </member>
+        <member name="T:Model.Entities.Fakes.ShimUser.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="P:Model.Entities.Fakes.ShimUser.AllInstances.DealIdGet">
+            <summary>Задает оболочка совместимости User.get_DealId()</summary>
+        </member>
+        <member name="P:Model.Entities.Fakes.ShimUser.AllInstances.DealIdSetInt32">
+            <summary>Задает оболочка совместимости User.set_DealId(Int32 value)</summary>
+        </member>
+        <member name="P:Model.Entities.Fakes.ShimUser.AllInstances.DealsGet">
+            <summary>Задает оболочка совместимости User.get_Deals()</summary>
+        </member>
+        <member name="P:Model.Entities.Fakes.ShimUser.AllInstances.DealsSetICollectionOfDeal">
+            <summary>Задает оболочка совместимости User.set_Deals(ICollection`1&lt;Deal&gt; value)</summary>
+        </member>
+        <member name="P:Model.Entities.Fakes.ShimUser.AllInstances.FirstNameGet">
+            <summary>Задает оболочка совместимости User.get_FirstName()</summary>
+        </member>
+        <member name="P:Model.Entities.Fakes.ShimUser.AllInstances.FirstNameSetString">
+            <summary>Задает оболочка совместимости User.set_FirstName(String value)</summary>
+        </member>
+        <member name="P:Model.Entities.Fakes.ShimUser.AllInstances.IdGet">
+            <summary>Задает оболочка совместимости User.get_Id()</summary>
+        </member>
+        <member name="P:Model.Entities.Fakes.ShimUser.AllInstances.IdSetInt32">
+            <summary>Задает оболочка совместимости User.set_Id(Int32 value)</summary>
+        </member>
+        <member name="P:Model.Entities.Fakes.ShimUser.AllInstances.LastNameGet">
+            <summary>Задает оболочка совместимости User.get_LastName()</summary>
+        </member>
+        <member name="P:Model.Entities.Fakes.ShimUser.AllInstances.LastNameSetString">
+            <summary>Задает оболочка совместимости User.set_LastName(String value)</summary>
+        </member>
+        <member name="P:Model.Entities.Fakes.ShimUser.AllInstances.LoginGet">
+            <summary>Задает оболочка совместимости User.get_Login()</summary>
+        </member>
+        <member name="P:Model.Entities.Fakes.ShimUser.AllInstances.LoginSetString">
+            <summary>Задает оболочка совместимости User.set_Login(String value)</summary>
+        </member>
+        <member name="P:Model.Entities.Fakes.ShimUser.AllInstances.PasswordGet">
+            <summary>Задает оболочка совместимости User.get_Password()</summary>
+        </member>
+        <member name="P:Model.Entities.Fakes.ShimUser.AllInstances.PasswordSetString">
+            <summary>Задает оболочка совместимости User.set_Password(String value)</summary>
+        </member>
+        <member name="M:Model.Entities.Fakes.ShimUser.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:Model.Entities.Fakes.ShimUser.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Model.Entities.Fakes.ShimUser.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Model.Entities.Fakes.ShimUser.Constructor">
+            <summary>Задает оболочка совместимости User.User()</summary>
+        </member>
+        <member name="P:Model.Entities.Fakes.ShimUser.DealIdGet">
+            <summary>Задает оболочка совместимости User.get_DealId()</summary>
+        </member>
+        <member name="P:Model.Entities.Fakes.ShimUser.DealIdSetInt32">
+            <summary>Задает оболочка совместимости User.set_DealId(Int32 value)</summary>
+        </member>
+        <member name="P:Model.Entities.Fakes.ShimUser.DealsGet">
+            <summary>Задает оболочка совместимости User.get_Deals()</summary>
+        </member>
+        <member name="P:Model.Entities.Fakes.ShimUser.DealsSetICollectionOfDeal">
+            <summary>Задает оболочка совместимости User.set_Deals(ICollection`1&lt;Deal&gt; value)</summary>
+        </member>
+        <member name="P:Model.Entities.Fakes.ShimUser.FirstNameGet">
+            <summary>Задает оболочка совместимости User.get_FirstName()</summary>
+        </member>
+        <member name="P:Model.Entities.Fakes.ShimUser.FirstNameSetString">
+            <summary>Задает оболочка совместимости User.set_FirstName(String value)</summary>
+        </member>
+        <member name="P:Model.Entities.Fakes.ShimUser.IdGet">
+            <summary>Задает оболочка совместимости User.get_Id()</summary>
+        </member>
+        <member name="P:Model.Entities.Fakes.ShimUser.IdSetInt32">
+            <summary>Задает оболочка совместимости User.set_Id(Int32 value)</summary>
+        </member>
+        <member name="P:Model.Entities.Fakes.ShimUser.LastNameGet">
+            <summary>Задает оболочка совместимости User.get_LastName()</summary>
+        </member>
+        <member name="P:Model.Entities.Fakes.ShimUser.LastNameSetString">
+            <summary>Задает оболочка совместимости User.set_LastName(String value)</summary>
+        </member>
+        <member name="P:Model.Entities.Fakes.ShimUser.LoginGet">
+            <summary>Задает оболочка совместимости User.get_Login()</summary>
+        </member>
+        <member name="P:Model.Entities.Fakes.ShimUser.LoginSetString">
+            <summary>Задает оболочка совместимости User.set_Login(String value)</summary>
+        </member>
+        <member name="P:Model.Entities.Fakes.ShimUser.PasswordGet">
+            <summary>Задает оболочка совместимости User.get_Password()</summary>
+        </member>
+        <member name="P:Model.Entities.Fakes.ShimUser.PasswordSetString">
+            <summary>Задает оболочка совместимости User.set_Password(String value)</summary>
+        </member>
+        <member name="T:Model.Entities.Fakes.StubDeal">
+            <summary>Тип заглушки Model.Entities.Deal</summary>
+        </member>
+        <member name="M:Model.Entities.Fakes.StubDeal.#ctor">
+            <summary>Инициализирует новый экземпляр</summary>
+        </member>
+        <member name="P:Model.Entities.Fakes.StubDeal.CallBase">
+            <summary>Получает или задает значение, указывающее, следует ли вызывать базовый метод вместо резервного поведения</summary>
+        </member>
+        <member name="M:Model.Entities.Fakes.StubDeal.InitializeStub">
+            <summary>Инициализирует новый экземпляр type StubDeal</summary>
+        </member>
+        <member name="P:Model.Entities.Fakes.StubDeal.InstanceBehavior">
+            <summary>Получает или задает поведение экземпляра.</summary>
+        </member>
+        <member name="P:Model.Entities.Fakes.StubDeal.InstanceObserver">
+            <summary>Получает или задает наблюдатель экземпляра.</summary>
+        </member>
+        <member name="T:Model.Entities.Fakes.StubTag">
+            <summary>Тип заглушки Model.Entities.Tag</summary>
+        </member>
+        <member name="M:Model.Entities.Fakes.StubTag.#ctor">
+            <summary>Инициализирует новый экземпляр</summary>
+        </member>
+        <member name="P:Model.Entities.Fakes.StubTag.CallBase">
+            <summary>Получает или задает значение, указывающее, следует ли вызывать базовый метод вместо резервного поведения</summary>
+        </member>
+        <member name="M:Model.Entities.Fakes.StubTag.InitializeStub">
+            <summary>Инициализирует новый экземпляр type StubTag</summary>
+        </member>
+        <member name="P:Model.Entities.Fakes.StubTag.InstanceBehavior">
+            <summary>Получает или задает поведение экземпляра.</summary>
+        </member>
+        <member name="P:Model.Entities.Fakes.StubTag.InstanceObserver">
+            <summary>Получает или задает наблюдатель экземпляра.</summary>
+        </member>
+        <member name="T:Model.Entities.Fakes.StubUser">
+            <summary>Тип заглушки Model.Entities.User</summary>
+        </member>
+        <member name="M:Model.Entities.Fakes.StubUser.#ctor">
+            <summary>Инициализирует новый экземпляр</summary>
+        </member>
+        <member name="P:Model.Entities.Fakes.StubUser.CallBase">
+            <summary>Получает или задает значение, указывающее, следует ли вызывать базовый метод вместо резервного поведения</summary>
+        </member>
+        <member name="M:Model.Entities.Fakes.StubUser.InitializeStub">
+            <summary>Инициализирует новый экземпляр type StubUser</summary>
+        </member>
+        <member name="P:Model.Entities.Fakes.StubUser.InstanceBehavior">
+            <summary>Получает или задает поведение экземпляра.</summary>
+        </member>
+        <member name="P:Model.Entities.Fakes.StubUser.InstanceObserver">
+            <summary>Получает или задает наблюдатель экземпляра.</summary>
+        </member>
+        <member name="T:Model.Migrations.Fakes.Shim_0">
+            <summary>Тип оболочки совместимости для Model.Migrations._0</summary>
+        </member>
+        <member name="M:Model.Migrations.Fakes.Shim_0.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:Model.Migrations.Fakes.Shim_0.#ctor(Model.Migrations._0)">
+            <summary>Инициализация новой оболочки совместимости для заданного экземпляра</summary>
+        </member>
+        <member name="T:Model.Migrations.Fakes.Shim_0.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="P:Model.Migrations.Fakes.Shim_0.AllInstances.Down">
+            <summary>Задает оболочка совместимости _0.Down()</summary>
+        </member>
+        <member name="P:Model.Migrations.Fakes.Shim_0.AllInstances.IdSystemDataEntityMigrationsInfrastructureIMigrationMetadataget">
+            <summary>Задает оболочка совместимости _0.System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata.get_Id()</summary>
+        </member>
+        <member name="P:Model.Migrations.Fakes.Shim_0.AllInstances.SourceSystemDataEntityMigrationsInfrastructureIMigrationMetadataget">
+            <summary>Задает оболочка совместимости _0.System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata.get_Source()</summary>
+        </member>
+        <member name="P:Model.Migrations.Fakes.Shim_0.AllInstances.TargetSystemDataEntityMigrationsInfrastructureIMigrationMetadataget">
+            <summary>Задает оболочка совместимости _0.System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata.get_Target()</summary>
+        </member>
+        <member name="P:Model.Migrations.Fakes.Shim_0.AllInstances.Up">
+            <summary>Задает оболочка совместимости _0.Up()</summary>
+        </member>
+        <member name="M:Model.Migrations.Fakes.Shim_0.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:Model.Migrations.Fakes.Shim_0.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Model.Migrations.Fakes.Shim_0.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:Model.Migrations.Fakes.Shim_0.Bind(System.Data.Entity.Migrations.Infrastructure.IDbMigration)">
+            <summary>Привязка членов интерфейса к оболочке совместимости.</summary>
+        </member>
+        <member name="M:Model.Migrations.Fakes.Shim_0.Bind(System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata)">
+            <summary>Привязка членов интерфейса к оболочке совместимости.</summary>
+        </member>
+        <member name="P:Model.Migrations.Fakes.Shim_0.Constructor">
+            <summary>Задает оболочка совместимости _0._0()</summary>
+        </member>
+        <member name="P:Model.Migrations.Fakes.Shim_0.Down">
+            <summary>Задает оболочка совместимости _0.Down()</summary>
+        </member>
+        <member name="P:Model.Migrations.Fakes.Shim_0.IdSystemDataEntityMigrationsInfrastructureIMigrationMetadataget">
+            <summary>Задает оболочка совместимости _0.System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata.get_Id()</summary>
+        </member>
+        <member name="P:Model.Migrations.Fakes.Shim_0.SourceSystemDataEntityMigrationsInfrastructureIMigrationMetadataget">
+            <summary>Задает оболочка совместимости _0.System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata.get_Source()</summary>
+        </member>
+        <member name="P:Model.Migrations.Fakes.Shim_0.TargetSystemDataEntityMigrationsInfrastructureIMigrationMetadataget">
+            <summary>Задает оболочка совместимости _0.System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata.get_Target()</summary>
+        </member>
+        <member name="P:Model.Migrations.Fakes.Shim_0.Up">
+            <summary>Задает оболочка совместимости _0.Up()</summary>
+        </member>
+    </members>
+</doc>

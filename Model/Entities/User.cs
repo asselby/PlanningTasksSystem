@@ -14,6 +14,6 @@ namespace Model.Entities
         public string Login { get; set; }
         public string Password { get; set; }
         public int DealId { get; set; }
-        public List<Deal> Deals { get; set; }
+        public ICollection<Deal> Deals { get; set; }= new List<Deal>();
     }
 }

@@ -11,8 +11,8 @@ namespace Model.Entities
         public int Id { get; set; }
         public string Description { get; set; }
         public DateTime CreatedDate{ get; set; }
+        public DateTime LimitionDate { get; set; }
         public int Priority { get; set; }
-        public List<Tag> Tags { get; set; }
-        public DateTime CurrentDate { get; set; }
+        public ICollection<Tag> Tags { get; set; }= new List<Tag>();
     }
 }

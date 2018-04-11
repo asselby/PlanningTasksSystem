@@ -1,0 +1,13 @@
+C:\Users\Besttdk\Source\Repos\PlanningTasksSystem\Controller\bin\Debug\Controller.dll
+C:\Users\Besttdk\Source\Repos\PlanningTasksSystem\Controller\bin\Debug\Controller.pdb
+C:\Users\Besttdk\Source\Repos\PlanningTasksSystem\Controller\bin\Debug\Model.dll
+C:\Users\Besttdk\Source\Repos\PlanningTasksSystem\Controller\bin\Debug\PlanningTasksSystem.exe
+C:\Users\Besttdk\Source\Repos\PlanningTasksSystem\Controller\bin\Debug\EntityFramework.dll
+C:\Users\Besttdk\Source\Repos\PlanningTasksSystem\Controller\bin\Debug\Model.pdb
+C:\Users\Besttdk\Source\Repos\PlanningTasksSystem\Controller\bin\Debug\Model.dll.config
+C:\Users\Besttdk\Source\Repos\PlanningTasksSystem\Controller\bin\Debug\PlanningTasksSystem.pdb
+C:\Users\Besttdk\Source\Repos\PlanningTasksSystem\Controller\bin\Debug\PlanningTasksSystem.exe.config
+C:\Users\Besttdk\Source\Repos\PlanningTasksSystem\Controller\bin\Debug\EntityFramework.xml
+C:\Users\Besttdk\Source\Repos\PlanningTasksSystem\Controller\obj\Debug\Controller.csprojResolveAssemblyReference.cache
+C:\Users\Besttdk\Source\Repos\PlanningTasksSystem\Controller\obj\Debug\Controller.dll
+C:\Users\Besttdk\Source\Repos\PlanningTasksSystem\Controller\obj\Debug\Controller.pdb

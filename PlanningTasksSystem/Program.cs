@@ -1,8 +1,10 @@
-﻿using System;
+﻿using Model.Entities;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Model.DbConnection;
 
 namespace PlanningTasksSystem
 {
@@ -16,7 +18,7 @@ namespace PlanningTasksSystem
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
-        }
+            Application.Run(new AutenticationForm());
     }
+}
 }

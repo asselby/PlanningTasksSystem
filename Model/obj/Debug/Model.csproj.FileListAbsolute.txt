@@ -1,0 +1,11 @@
+C:\Users\Besttdk\Source\Repos\PlanningTasksSystem\Model\bin\Debug\Model.dll.config
+C:\Users\Besttdk\Source\Repos\PlanningTasksSystem\Model\bin\Debug\Model.dll
+C:\Users\Besttdk\Source\Repos\PlanningTasksSystem\Model\bin\Debug\Model.pdb
+C:\Users\Besttdk\Source\Repos\PlanningTasksSystem\Model\bin\Debug\EntityFramework.dll
+C:\Users\Besttdk\Source\Repos\PlanningTasksSystem\Model\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Besttdk\Source\Repos\PlanningTasksSystem\Model\bin\Debug\EntityFramework.xml
+C:\Users\Besttdk\Source\Repos\PlanningTasksSystem\Model\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Besttdk\Source\Repos\PlanningTasksSystem\Model\obj\Debug\Model.dll
+C:\Users\Besttdk\Source\Repos\PlanningTasksSystem\Model\obj\Debug\Model.pdb
+C:\Users\Besttdk\Source\Repos\PlanningTasksSystem\Model\obj\Debug\Model.Migrations._0.resources
+C:\Users\Besttdk\Source\Repos\PlanningTasksSystem\Model\obj\Debug\Model.csproj.GenerateResource.Cache

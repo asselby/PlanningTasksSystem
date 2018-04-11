@@ -1,0 +1,3 @@
+C:\Users\Besttdk\Source\Repos\PlanningTasksSystem\PlanningTasksSystem\Fakes\Model.fakes : warning : Невозможно создать заглушку для Model.Migrations._0: тип является запечатанным.
+C:\Users\Besttdk\Source\Repos\PlanningTasksSystem\PlanningTasksSystem\Fakes\Model.fakes : warning : Невозможно создать заглушку для Model.Migrations.Configuration: тип является запечатанным.
+C:\Users\Besttdk\Source\Repos\PlanningTasksSystem\PlanningTasksSystem\Fakes\Model.fakes : warning : Невозможно создать оболочку совместимости для Model.Migrations.Configuration: тип невидим для exported or assembly(Model.Fakes).

@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.7
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlanningTasksSystem", "PlanningTasksSystem\PlanningTasksSystem.csproj", "{56E01154-D99A-4F9F-BDDB-980CA0B56E0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "Model\Model.csproj", "{9EB4BBA8-431B-4792-8960-0E2EB5D06E51}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{56E01154-D99A-4F9F-BDDB-980CA0B56E0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{56E01154-D99A-4F9F-BDDB-980CA0B56E0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{56E01154-D99A-4F9F-BDDB-980CA0B56E0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EB4BBA8-431B-4792-8960-0E2EB5D06E51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EB4BBA8-431B-4792-8960-0E2EB5D06E51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EB4BBA8-431B-4792-8960-0E2EB5D06E51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EB4BBA8-431B-4792-8960-0E2EB5D06E51}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
